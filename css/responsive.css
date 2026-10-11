@@ -1,0 +1,8 @@
+/* Additional progressive-enhancement rules. Core mobile-first styles live in style.css. */
+@media (min-width: 1440px) {
+    :root { --container-width: 1280px; }
+}
+@media (max-width: 767px) {
+    .desktop-only { display: none !important; }
+    .hero__actions .btn { width: 100%; }
+}
